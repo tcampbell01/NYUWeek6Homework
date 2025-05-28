@@ -7,13 +7,12 @@ int main()
 {
 
     int input;
-    int fib_number = 0;
 
     cout << "Please enter a positive integer:" << endl;
     cin >> input;
 
     // call fib function, input becomes int n
-    fib_number = fib(input);
+    int fib_number = fib(input);
 
     cout << fib_number << endl; // print the result
 
